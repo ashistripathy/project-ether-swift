@@ -1,10 +1,39 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Swift/SPM
 /.build
 /Packages
 xcuserdata/
 DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
-# Secrets (Security First!)
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDE/Editor
+.idea/
+*.iml
+*.swp
+*~
+
+# Environment & Secrets
 .env
+.env.local
+local.properties
+
+# Network
+.netrc
+
+# Dependencies
+Pods/
+Carthage/
+.package/
