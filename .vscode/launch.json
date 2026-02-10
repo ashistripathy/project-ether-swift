@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Project_Ether_Swift}",
+            "name": "Debug Project_Ether_Swift",
+            "target": "Project_Ether_Swift",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Project_Ether_Swift"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Project_Ether_Swift}",
+            "name": "Release Project_Ether_Swift",
+            "target": "Project_Ether_Swift",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Project_Ether_Swift"
+        }
+    ]
+}
